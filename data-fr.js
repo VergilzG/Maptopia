@@ -274,7 +274,7 @@ const bugList = [
     {name:"Sauterelle rose", bg:"condition/sauterelle_rose_lieu.png", cond:"condition/sauterelle_rose_meteo.png", heure:"condition/sauterelle_rose_heure.png"},
     {name:"Scarabée licorne", bg:"condition/scarabee_unicorne_lieu.png", cond:"condition/scarabee_unicorne_meteo.png", heure:"condition/scarabee_unicorne_heure.png"},
     {name:"Vanesse violette", bg:"condition/Vanesse_violette_lieu.png", cond:"condition/Vanesse_violette_meteo.png", heure:"condition/Vanesse_violette_heure.png"}
-
+];
 
 // 10. OISEAUX
 const birdList = [
@@ -338,6 +338,7 @@ const birdList = [
     {name:"Tourterelle tigrine", bg:"condition/tourterelle_tigrine_lieu.png", cond:"condition/tourterelle_tigrine_meteo.png", heure:"condition/tourterelle_tigrine_heure.png"},
     {name:"Troglodyte", bg:"condition/troglodyte_lieu.png", cond:"condition/troglodyte_meteo.png", heure:"condition/troglodyte_heure.png"}
 ];
+
 
 
 
