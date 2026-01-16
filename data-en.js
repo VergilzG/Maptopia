@@ -37,13 +37,13 @@ const PNJ_DATA = [
     [-528.3, 560.3, "Blanc", "pnj/blanc.png"],
     [-499.8, 499.0, "Annie", "pnj/annie.png"],
     [-532.4, 634.8, "Albert Jr.", "pnj/albert jr.png"],
-    [-734.8, 445.8, "Bill", "pnj/bill.png"]
+    [-734.8, 445.8, "Bill", "pnj/bill.png"],
     [-509.4, 414, "Doris (Rain)", "pnj/doris.png"]
 ];
 
 // 3. BUS STOPS
 const BUS_DATA = [
-    ["Western Town Suburbs",[-533,340]], ["Eastern Town Suburbs",[-519,639]], ["Fishing Village",[-654,479]], 
+    ["Western Town Suburbs",[-533,340]], ["Eastern Town Suburbs",[-524, 639]], ["Fishing Village",[-654,479]], 
     ["Flower Field",[-532,218]], ["Onsen Mountain",[-222,512]], ["Northern Town Suburbs",[-373,480]], 
     ["Central Square",[-497,481]], ["Forest",[-500,798]]
 ];
@@ -69,40 +69,41 @@ const ANIMAL_DATA = [
 // 6. LOCATIONS
 const LIEUX_DATA = [
     {pos:[-538,492], name:"Central Square", type:"label-ville", startOn:true}, 
-    {pos:[-692,506], name:"Fishing Village", type:"label-ville", startOn:true}, 
-    {pos:[-438,513], name:"Residents Street", type:"label-ville", startOn:true}, 
-    {pos:[-649,185], name:"Flower Field", type:"label-ville", startOn:true}, 
+    {pos:[-692,506], name:"Fishing Village Square", type:"label-ville", startOn:true}, 
+    {pos:[-438,513], name:"Residential Street", type:"label-ville", startOn:true}, 
+    {pos:[-649,185], name:"Windmill Flower Field", type:"label-ville", startOn:true}, 
     {pos:[-440,184], name:"Whale Mountain", type:"label-ville", startOn:true}, 
-    {pos:[-184,291], name:"The Ruins", type:"label-ville", startOn:true}, 
-    {pos:[-223,501], name:"Thermal Mountain", type:"label-ville", startOn:true}, 
-    {pos:[-228,627], name:"Rocky Cliff", type:"label-ville", startOn:true}, 
-    {pos:[-531,805], name:"Oak Forest", type:"label-ville", startOn:true}, 
-    {pos:[-494,429], name:"Arts Street", type:"label-ville", startOn:true}, 
+    {pos:[-184,291], name:"Ruins", type:"label-ville", startOn:true}, 
+    {pos:[-223,501], name:"Onsen", type:"label-ville", startOn:true}, 
+    {pos:[-228,627], name:"Stone Cliff", type:"label-ville", startOn:true}, 
+    {pos:[-531,805], name:"Spirit Oak Pine Forest", type:"label-ville", startOn:true}, 
+    {pos:[-494,429], name:"Art Street", type:"label-ville", startOn:true}, 
     {pos:[-510,558], name:"Garden Street", type:"label-ville", startOn:true}, 
-    {pos:[-736,602], name:"Oriental Dock", type:"label-ville", startOn:true}, 
-    {pos:[-690,402], name:"The Dock", type:"label-ville", startOn:true}, 
+    {pos:[-736,602], name:"East Pier of Fishing Village", type:"label-ville", startOn:true}, 
     {pos:[-780,387], name:"Lighthouse", type:"label-ville", startOn:true}, 
-    {pos:[-691,783], name:"Diving Board", type:"label-ville", startOn:true}, 
+    {pos:[-691,783], name:"Jump Puzzle", type:"label-ville", startOn:true}, 
     {pos:[-338,933], name:"Forest Island", type:"label-ville", startOn:true}, 
     {pos:[-587,406], name:"Suburbs", type:"label-ville", startOn:true}, 
-    {pos:[-725,208], name:"Purple Beach", type:"label-ville", startOn:true}, 
-    {pos:[-783,478], name:"Calm Sea", type:"label-eau", startOn:true}, 
+    {pos:[-725,208], name:"Purple Light Beach", type:"label-ville", startOn:true}, 
+    {pos:[-783,478], name:"Zephyr Sea", type:"label-eau", startOn:true}, 
     {pos:[-534,92], name:"Whale Sea", type:"label-eau", startOn:true}, 
     {pos:[-68,497], name:"Ancient Sea", type:"label-eau", startOn:true}, 
     {pos:[-536,232], name:"Meadow Lake", type:"label-eau", startOn:true}, 
-    {pos:[-337,319], name:"Aurora River", type:"label-eau", startOn:true}, 
-    {pos:[-176,394], name:"Volcanic Lake", type:"label-eau", startOn:true}, 
-    {pos:[-265,537], name:"Hot Spring Lake", type:"label-eau", startOn:true}, 
+    {pos:[-337,319], name:"Rosy River", type:"label-eau", startOn:true}, 
+    {pos:[-176,394], name:"Crater Lake", type:"label-eau", startOn:true}, 
+    {pos:[-265,537], name:"Onsen Mountain Lake", type:"label-eau", startOn:true}, 
     {pos:[-344,652], name:"Shallow River", type:"label-eau", startOn:true}, 
+    {pos:[-678,417], name:"Wharf", type:"label-ville", startOn:true}, 
     {pos:[-598,748], name:"Forest Lake", type:"label-eau", startOn:true}, 
-    {pos:[-431,774], name:"Upper Forest Lake", type:"label-eau", startOn:true}, 
+    // Lac au dessus
+    {pos:[-431,774], name:"Forest Lake", type:"label-eau", startOn:true},
+    {pos:[-367,807], name:"Deer Tower", type:"label-eau", startOn:true}, 
     {pos:[-608,481], name:"Suburban Lake", type:"label-eau", startOn:true}, 
-    {pos:[-669,368], name:"Quiet River", type:"label-eau", startOn:true}, 
-    {pos:[-674,627], name:"Giant Tree River", type:"label-eau", startOn:true}, 
-    {pos:[-600,600], name:"Mill Flower Field", type:"label-ville", startOn:true}, 
-    {pos:[-670,450], name:"East Pontoon", type:"label-ville", startOn:true}
+    {pos:[-394,480], name:"Suburban Lake", type:"label-eau", startOn:true}, 
+	{pos:[-447,622], name:"Suburban Lake", type:"label-eau", startOn:true}, 
+    {pos:[-669,368], name:"Tranquil River", type:"label-eau", startOn:true}, 
+    {pos:[-674,627], name:"Giantwood River", type:"label-eau", startOn:true}, 
 ];
-
 // 7. RESOURCES
 const resourcesData = {
     "Raspberry": { 
@@ -399,4 +400,5 @@ const birdList = [
     {name:"Spotted Dove", bg:"condition/tourterelle_tigrine_lieu.png", cond:"condition/tourterelle_tigrine_meteo.png", heure:"condition/tourterelle_tigrine_heure.png"},
     {name:"Wren", bg:"condition/troglodyte_lieu.png", cond:"condition/troglodyte_meteo.png", heure:"condition/troglodyte_heure.png"}
 ];
+
 
