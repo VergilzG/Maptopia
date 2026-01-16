@@ -178,7 +178,6 @@ const fishList = [
     {name:"Carpe noire", bg:"condition/carpe_noire_lieu.png", cond:"condition/carpe_noire_meteo.png", heure:"condition/carpe_noire_heure.png"},
     {name:"Chabot", bg:"condition/chabot_lieu.png", cond:"condition/chabot_meteo.png", heure:"condition/chabot_heure.png"},
     {name:"Chimère argentée", bg:"condition/chimere_argentee_lieu.png", cond:"condition/chimere_argentee_meteo.png", heure:"condition/chimere_argentee_heure.png"},
-    {name:"Comète", bg:"condition/comete_coussut_lieu.png", cond:"condition/comete_coussut_meteo.png", heure:"condition/comete_coussut_heure.png"},
     {name:"Comète coussut", bg:"condition/comete_coussut_lieu.png", cond:"condition/comete_coussut_meteo.png", heure:"condition/comete_coussut_heure.png"},
     {name:"Crabe de ruisseau", bg:"condition/crabe_de_ruisseau_lieu.png", cond:"condition/crabe_de_ruisseau_meteo.png", heure:"condition/crabe_de_ruisseau_heure.png"},
     {name:"Crevette de la mer", bg:"condition/crevette_de_la_mer_lieu.png", cond:"condition/crevette_de_la_mer_meteo.png", heure:"condition/crevette_de_la_mer_heure.png"},
@@ -339,5 +338,6 @@ const birdList = [
     {name:"Tourterelle tigrine", bg:"condition/tourterelle_tigrine_lieu.png", cond:"condition/tourterelle_tigrine_meteo.png", heure:"condition/tourterelle_tigrine_heure.png"},
     {name:"Troglodyte", bg:"condition/troglodyte_lieu.png", cond:"condition/troglodyte_meteo.png", heure:"condition/troglodyte_heure.png"}
 ];
+
 
 
